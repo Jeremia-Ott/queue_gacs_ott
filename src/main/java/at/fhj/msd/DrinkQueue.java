@@ -4,9 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.NoSuchElementException;
 
-public class DrinkQueue implements IQueue<SimpleDrink> {
+public class DrinkQueue implements IQueue<Drink> {
 
-  private List<SimpleDrink> elements = new ArrayList<SimpleDrink>();
+  private List<Drink> elements = new ArrayList<Drink>();
   private int maxSize = 5;
 
   public DrinkQueue(int maxsize) {
@@ -14,7 +14,7 @@ public class DrinkQueue implements IQueue<SimpleDrink> {
   }
 
   @Override
-  public boolean offer(SimpleDrink obj) {
+  public boolean offer(Drink obj) {
     if (elements.size() != maxSize)
       elements.add(obj);
     else
@@ -24,8 +24,8 @@ public class DrinkQueue implements IQueue<SimpleDrink> {
   }
 
   @Override
-  public SimpleDrink poll() {
-    SimpleDrink element = peek();
+  public Drink poll() {
+    Drink element = peek();
 
     if (elements.size() > 0) {
       elements.remove(0);
@@ -35,8 +35,8 @@ public class DrinkQueue implements IQueue<SimpleDrink> {
   }
 
   @Override
-  public SimpleDrink remove() {
-    SimpleDrink element = poll();
+  public Drink remove() {
+    Drink element = poll();
     if (element == null)
       throw new NoSuchElementException("there's no element any more");
 
@@ -44,8 +44,8 @@ public class DrinkQueue implements IQueue<SimpleDrink> {
   }
 
   @Override
-  public SimpleDrink peek() {
-    SimpleDrink element;
+  public Drink peek() {
+    Drink element;
     if (elements.size() > 0)
       element = elements.get(0);
     else
@@ -55,8 +55,8 @@ public class DrinkQueue implements IQueue<SimpleDrink> {
   }
 
   @Override
-  public SimpleDrink element() {
-    SimpleDrink element = peek();
+  public Drink element() {
+    Drink element = peek();
     if (element == null)
       throw new NoSuchElementException("there's no element any more");
 
