@@ -20,7 +20,7 @@ Please use markdown-reader for proper visualization <br>
   - [x] setup drink queue implementation -> Bence
   - [x] 2 methods in "DrinkQueue.java" & create javadoc comments -> Jeremia
   - [x] 3 methods in "DrinkQueue.java" & create javadoc comments -> Bence
-- [ ] create tests w/ 100% code coverage -> x
+- [x] create tests w/ 100% code coverage -> x
 - [ ] create maven site documentation 
   - [ ] integrate and adapt general Projectinformation, jacoco & API documentation
   - [ ] create "surname".md file
