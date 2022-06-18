@@ -7,6 +7,21 @@
     <groupId>org.example</groupId>
     <artifactId>queue_gacs_ott</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <url>https://github.com/Jeremia-Ott</url>
+
+    <developers>
+        <developer>
+            <id>jeremiaott</id>
+            <name>Jeremia Ott</name>
+            <email>jeremia.ott@edu.fh-joanneum.at</email>
+            <organization>FH JOANNEUM GmbH</organization>
+            <organizationUrl>https://www.fh-joanneum.at/</organizationUrl>
+            <roles>
+                <role>Student</role>
+            </roles>
+            <timezone>Europe/Vienna</timezone>
+        </developer>
+    </developers>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
