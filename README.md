@@ -15,7 +15,7 @@ Please use markdown-reader for proper visualization <br>
 
 - [x] extend pom.xml with relevant libraries and configurations -> Jeremia
 - [x] find & fix errors in code -> Bence
-- [ ] create DrinkQueue
+- [x] create DrinkQueue
   - [x] integrate drink interface & implemented class -> x
   - [x] setup drink queue implementation -> Bence
   - [x] 2 methods in "DrinkQueue.java" & create javadoc comments -> Jeremia
