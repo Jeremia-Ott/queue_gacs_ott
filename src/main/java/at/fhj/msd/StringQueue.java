@@ -8,6 +8,9 @@ import java.util.NoSuchElementException;
 // there are different Bugs, wrong implementation, typos, ...
 // write Test-Cases (read Queue Interface for understanding methods) and use Debugging possibilies of your IDE
 
+/**
+ * Class represents a queue of Strings
+ */
 public class StringQueue implements IQueue<String> {
 
   private List<String> elements = new ArrayList<String>();
@@ -17,6 +20,12 @@ public class StringQueue implements IQueue<String> {
     maxSize = maxsize;
   } //maxsize is lowercase error 1
 
+  /**
+   * add String to queue
+   *
+   * @param obj is the String that gets added
+   * @return true if works, otherwise false
+   */
   @Override
   public boolean offer(String obj) {
     if (elements.size() != maxSize)
@@ -27,6 +36,11 @@ public class StringQueue implements IQueue<String> {
     return true;
   }
 
+  /**
+   * returns and deletes first String
+   *
+   * @return first element, null if no element is there
+   */
   @Override
   public String poll() {
     String element = peek();
@@ -38,6 +52,12 @@ public class StringQueue implements IQueue<String> {
     return element;
   }
 
+  /**
+   * returns and deletes first String
+   *
+   * @throws NullPointerException if there is no String in queue
+   * @return first String in queue
+   */
   @Override
   public String remove() {
     String element = poll();
@@ -48,6 +68,11 @@ public class StringQueue implements IQueue<String> {
     return element;
   }
 
+  /**
+   * gives first String but does not delete
+   *
+   * @return first String, null if nothing is there
+   */
   @Override
   public String peek() {
     String element;
@@ -59,6 +84,12 @@ public class StringQueue implements IQueue<String> {
     return element;
   }
 
+  /**
+   * gives first String but does not delete
+   *
+   * @throws NoSuchElementException if nothing is there
+   * @return first String
+   */
   @Override
   public String element() {
     String element = peek();

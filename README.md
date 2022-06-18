@@ -18,7 +18,7 @@ Please use markdown-reader for proper visualization <br>
 - [ ] create DrinkQueue
   - [x] integrate drink interface & implemented class -> x
   - [x] setup drink queue implementation -> Bence
-  - [ ] 2 methods in "DrinkQueue.java" & create javadoc comments -> Jeremia
+  - [x] 2 methods in "DrinkQueue.java" & create javadoc comments -> Jeremia
   - [ ] 3 methods in "DrinkQueue.java" & create javadoc comments -> Bence
 - [ ] create tests w/ 100% code coverage -> x
 - [ ] create maven site documentation 
