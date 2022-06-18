@@ -1,6 +1,9 @@
 # Intellij generated files
 .idea
 
+# maven generated files
+target
+
 # Compiled class file
 *.class
 
