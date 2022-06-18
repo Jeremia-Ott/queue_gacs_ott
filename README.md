@@ -13,7 +13,7 @@ Please use markdown-reader for proper visualization <br>
 
 ## Tasklist
 
-- [ ] extend pom.xml with relevant libraries and configurations -> Jeremia
+- [x] extend pom.xml with relevant libraries and configurations -> Jeremia
 - [x] find & fix errors in code -> Bence
 - [ ] create DrinkQueue
   - [ ] integrate drink interface & implemented class -> x
