@@ -21,14 +21,6 @@
             </roles>
             <timezone>Europe/Vienna</timezone>
         </developer>
-    </developers>
-
-    <properties>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
-    </properties>
-
-    <developers>
         <developer>
             <id>bencegacs</id>
             <name>Bence Gacs</name>
@@ -41,4 +33,10 @@
             <timezone>Europe/Vienna</timezone>
         </developer>
     </developers>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+    </properties>
+
 </project>
