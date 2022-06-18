@@ -13,6 +13,12 @@ public class DrinkQueue implements IQueue<Drink> {
     maxSize = maxsize;
   }
 
+  /**
+   * Add new Drink to DrinkQueue
+   *
+   * @param obj
+   * @return boolean
+   */
   @Override
   public boolean offer(Drink obj) {
     if (elements.size() != maxSize)
@@ -23,6 +29,11 @@ public class DrinkQueue implements IQueue<Drink> {
     return true;
   }
 
+  /**
+   * returns and deletes first element of elements or null if no element in queue
+   *
+   * @return Drink
+   */
   @Override
   public Drink poll() {
     Drink element = peek();
@@ -33,7 +44,12 @@ public class DrinkQueue implements IQueue<Drink> {
 
     return element;
   }
-
+  /**
+   * returns and deletes first element of queue or throws NoSuchElementException
+   *
+   * @throws NoSuchElementException
+   * @return Drink
+   */
   @Override
   public Drink remove() {
     Drink element = poll();
