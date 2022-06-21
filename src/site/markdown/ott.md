@@ -23,6 +23,6 @@ Jeremia Ott
 
 ## Contact
 If you run into any issues running the Project, please feel 
-free to contact me on any of the following: <br>
-jeremia.ott@edu.fh-joanneum.at <br>
+free to contact me on any of the following:  
+jeremia.ott@edu.fh-joanneum.at  
 [@github_account_jeremia](https://github.com/Jeremia-Ott)

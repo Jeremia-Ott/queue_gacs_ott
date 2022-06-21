@@ -2,7 +2,7 @@
 <p align="center">
 My Contributions
 Bence Gacs
-<br />
+<br/>
 </p>
 
 
@@ -22,9 +22,9 @@ Bence Gacs
 
 
 ## Contact
-If you run into any issues running the Project, please feel free to contact me on any of the following: <br>
-[@reddit_account](https://www.reddit.com/user/bob_the_banannna/) - bence.gacs@gmail.com <br>
-[@github_account_bence](https://github.com/billgec) <br>
+If you run into any issues running the Project, please feel free to contact me on any of the following:  
+[@reddit_account](https://www.reddit.com/user/bob_the_banannna/) - bence.gacs@gmail.com  
+[@github_account_bence](https://github.com/billgec)
 
 
 ## Acknowledgments
