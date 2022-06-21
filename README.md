@@ -21,8 +21,8 @@ Please use markdown-reader for proper visualization <br>
   - [x] 2 methods in "DrinkQueue.java" & create javadoc comments -> Jeremia
   - [x] 3 methods in "DrinkQueue.java" & create javadoc comments -> Bence
 - [x] create tests w/ 100% code coverage -> x
-- [ ] create maven site documentation 
-  - [ ] integrate and adapt general Projectinformation, jacoco & API documentation
+- [x] create maven site documentation 
+  - [x] integrate and adapt general Projectinformation, jacoco & API documentation
   - [x] create "surname".md file
 
 

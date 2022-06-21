@@ -1,0 +1,13 @@
+<project name="Calculator Documentation">
+    <publishDate position="right"/>
+    <version position="left"/>
+    <body>
+        <menu name="Overview">
+            <item name="Contributions Ott" href="ott.html"/>
+            <item name="Contributions Gacs" href="gacs.html"/>
+        </menu>
+        <menu ref="reports"/>
+        <menu ref="parent"/>
+        <menu ref="modules"/>
+    </body>
+</project>
