@@ -9,7 +9,7 @@ import java.util.NoSuchElementException;
  * Class for testing DrinkQueue.java
  *
  * @author bence
- * @author
+ * @author ott
  */
 public class DrinkQueueTest {
     private IQueue queue;

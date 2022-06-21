@@ -5,6 +5,12 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import java.util.NoSuchElementException;
 
+/**
+ * Class for testing StringQueue.java
+ *
+ * @author bence
+ * @author ott
+ */
 public class StringQueueTest {
     private IQueue queue;
 
@@ -53,7 +59,7 @@ public class StringQueueTest {
 
     /**
      * tests a simple case of remove
-     * also test if the Drink got removed from the queue
+     * also test if the element got removed from the queue
      */
     @Test
     public void simpleRemoveTest(){
